@@ -1,13 +1,9 @@
-import userEvent from "@testing-library/user-event";
+import ProfileImage from "./ProfileImage";
 
 function Tweet({user, timestamp, message}) {
   return (
     <div className="tweet">
-      <img
-        src={user.image}
-        className="profile"
-        alt="profile"
-      />
+    <ProfileImage user={user} />
 
       <div className="body">
         <div className="top">
