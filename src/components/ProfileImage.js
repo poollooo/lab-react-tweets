@@ -1,7 +1,7 @@
-function ProfileImage({user}) {
+function ProfileImage({image}) {
   return (
       <img
-        src={user.image}
+        src={image}
         className="profile"
         alt="profile"
       />
